@@ -1,0 +1,53 @@
+@media screen and (min-width: 920px) {
+   .header-contents {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+   }
+
+   .logo_img {
+    display: block;
+    width: 100%;
+    padding-top: 15px;
+   }
+
+   .logo_img img {
+    width: 75px;
+    margin: 0 auto;
+    text-align: center;
+   }
+
+   .navigation_tab {
+    display: flex;
+    flex-direction: row;
+   }
+
+   #burger {
+    display: none;
+   }
+
+   ul.menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    position: static;
+    background-color: var(--headerBgColor);
+    font-family: var(--font1);
+    font-size: 16px;
+}
+
+ul.menu li {
+    padding: 0 1px 10px 13px;
+}
+
+ul.menu li a {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#nav-menu.active ul.menu {
+    display: flex;
+}
+
+}
